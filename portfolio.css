@@ -674,7 +674,18 @@ box-shadow: 0 2px orangered;
 
 }
 
-
+/*footer--------------------------------------------------*/
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text h7 {
+  color: black;
+}
+.text a {
+  text-decoration: none;
+}
 
 
 
