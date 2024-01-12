@@ -746,44 +746,44 @@ box-shadow: 0 2px orangered;
 
 /* responsive--------------------------------------------------------------------------------------------------------------------------------*/
 /*body*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   body {
     color: #fff;
     height: 100vh;
-    width: 600px;
+    width: 1236px;
   }
 }
 /*header----------------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   .header {
     padding: 10px 1%;
-    width: 370px;
+    width: 100%;
   }
 
   .logo {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .navbar a {
     display: inline-block;
-    font-size: 10px;
+    font-size: 20px;
     margin-left: 0px;
-    margin-right: 5px;
+    margin-right: 95px;
   }
 }
 
 /*home-------------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   .circle {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     margin-left: 40px;
   }
 
   .home-content h3 {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .home-content h1 {
@@ -810,62 +810,61 @@ box-shadow: 0 2px orangered;
 
 /*about----------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
-  .about {
-    align-items: center;
-  }
+@media screen and (max-width: 1236px) {
+  
 
   .about-text {
     width: 340px;
-    margin-left: -300px;
+    margin-left: -30px;
   }
 
   .about-text h2 {
-    font-size: 20px;
-    margin-left: 120px;
+    font-size: 32px;
+    margin-left: 50px;
   }
 
   .about-text h4 {
-    font-size: 12px;
+    font-size: 17px;
     margin: 10px 0 15px;
-    margin-left: 108px;
+    margin-left: 40px;
   }
 
   .about-text p {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 3px;
     width: 330px;
   }
   .circle-about {
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
-    opacity: 0;
+   
+    width: 400px;
+    height: 400px;
+    opacity: 1;
   }
 }
 
 /*education---------------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   .heading1 {
     width: 20px;
   }
   .heading1 h2 {
-    font-size: 20px;
-    margin-left: -320px;
+    font-size: 32px;
+    margin-left: -100px;
   }
   .heading1 h2 span {
-    margin-left: -50px;
+    margin-left: 180px;
   }
 
   .bar {
-    font-size: 16px;
-    margin-left: -180px;
-    width: 250px;
+    font-size: 26px;
+    margin-left: -150px;
+    width: 670px;
+      height:100px;
   }
 
   .technical-bars .bar .info span {
-    font-size: 12px;
+    font-size: 22px;
   }
 
   .progress-line span::after,
@@ -876,11 +875,11 @@ box-shadow: 0 2px orangered;
 
 /*skills--------------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   .main-text h4 {
-    font-size: 20px;
+    font-size: 32px;
     width: 600px;
-    margin-left: 150px;
+    margin-left: 540px;
   }
   .image {
     height: 80vh;
@@ -888,51 +887,52 @@ box-shadow: 0 2px orangered;
 
   .cover-image.html,
   .cover-image.css {
-    width: 100px;
-    height: 80px;
+    width: 150px;
+    height: 100px;
   }
 
   .cover-image.cover-image.js,
   .cover-image.java,
   .cover-image.mysql {
-    width: 100px;
-    height: 80px;
+    width: 150px;
+    height: 100px;
   }
   .cover-image.html {
-    margin-left: -60px;
+    margin-left: 170px;
   }
   .cover-image.css {
-    margin-left: -210px;
+    margin-left: 90px;
   }
   .cover-image.java {
-    margin-left: -190px;
+    margin-left: 50px;
   }
   .cover-image.mysql {
-    margin-left: -290px;
+    margin-left: 120px;
   }
   .cover-image.js {
-    margin-left: -90px;
+    margin-left: -50px;
   }
 }
 
 /*latest project------------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   .main-text h2 {
-    font-size: 20px;
-    margin-left: 120px;
+    font-size: 32px;
+    margin-left: 480px;
     margin-top: -50px;
   }
 
   .project-content {
     margin-top: -90px;
-    padding-left: 110px;
-    width: 250px;
+    padding-left: 480px;
+    width: 700px;
     margin-top: -40px;
+      row-gap:3rem;
   }
 
   .layer h5 {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .layer p {
@@ -941,13 +941,13 @@ box-shadow: 0 2px orangered;
   }
   .row {
     width: 200px;
-    height: 150px;
+    height: 100px;
   }
 }
 
 /*contact-----------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   .contact {
     height: 700px;
   }
@@ -956,40 +956,40 @@ box-shadow: 0 2px orangered;
     margin-left: 5%;
   }
   .main-text1 h2 {
-    font-size: 20px;
+    font-size: 32px;
     margin-top: -70px;
-    margin-left: 90px;
+    margin-left: 430px;
   }
   .contact-text {
     width: 300px;
-    height: 400px;
+    height: 300px;
   }
 
   .contact-text h4 {
-    margin-left: -110px;
+    margin-left: -190px;
     height: 10px;
-    font-size: 13px;
+    font-size: 23px;
   }
 
   .contact-list {
-    margin-left: -180px;
+    margin-left: -230px;
     height: 100px;
   }
 
   .contact-icons {
-    margin-left: -150px;
+    margin-left: -240px;
     margin-top: 0px;
   }
   .contact-icons i {
-    height: 50px;
-    width: 50px;
-    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
   }
 }
 
 /*footer--------------------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1236px) {
   .text h7 {
     font-size: 14px;
   }
