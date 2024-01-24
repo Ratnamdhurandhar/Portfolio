@@ -244,7 +244,7 @@ body {
 }
 
 .about-text h2 {
-  font-size: 3.0rem;
+  font-size: 6.0rem;
 }
 .about-text h2 span {
   color: #ff4500;
@@ -375,6 +375,7 @@ section {
 
 .bar {
   font-size: 2.0rem;
+  padding-top: 2rem;
 }
 .technical-bars .bar {
   margin-top: 0rem 0;
@@ -465,7 +466,7 @@ section {
   border-bottom-width: 0rem;
   border-right-width: 0rem;
   border-top-color: white;
-  top: 1.0rem;
+  top: 0.0rem;
   right: 0;
   animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
@@ -637,7 +638,9 @@ section {
   html{
     font-size: 55%;
   }
-  
+  .skills{
+    height: 70vh;
+  }
 .main-text {
   font-size: 3.0rem;
 }
@@ -854,7 +857,7 @@ margin-top: -10%;
 .main-text1 {
   padding-top: 0rem;
   margin-top: 10.0rem;
-  margin-left: 60.0rem;
+  margin-left: 60rem;
 }
 .main-text1 h2 {
   font-size: 6.0rem;
@@ -870,7 +873,7 @@ margin-top: -10%;
   color: rgb(228, 228, 228);
   font-size: 3.0rem;
   font-weight: 600;
-  margin-left: 63.0rem;
+  margin-left: 65.0rem;
 }
 .contact-text p {
   color: rgb(177, 177, 177);
@@ -880,7 +883,7 @@ margin-top: -10%;
 }
 .contact-list {
   margin-bottom: 5rem;
-  margin-left: 63.0rem;
+  margin-left: 65.0rem;
 }
 .contact-list li {
   margin-bottom: 1.0rem;
@@ -903,7 +906,8 @@ margin-top: -10%;
   color: #ff4500;
 }
 .contact-icons {
-  margin-left: 28rem;
+  width: 100%;
+  margin-left: 50%;
 }
 .contact-icons i {
   display: inline-flex;
@@ -972,7 +976,7 @@ margin-top: -10%;
   margin-left: 1.0rem;
 }
 .contact-icons {
-  margin-left: 20rem;
+  margin-left: 20%;
 }
 }
 
